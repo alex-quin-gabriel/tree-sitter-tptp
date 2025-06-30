@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-tptp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tptp grammar for tree-sitter",
   "repository": "https://github.com/tree-sitter/tree-sitter-tptp",
   "license": "Apache 2.0",
