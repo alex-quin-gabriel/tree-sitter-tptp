@@ -11,7 +11,10 @@ module.exports = grammar({
   name: "tptp",
   
   //word: $ => $.formula_name, // TODO make sure this covers all the identifiers
-  
+  extras: $ => [
+    $.line_comment,
+    /\s/,
+  ],
   rules: {
 
     tptp_file: $ => repeat(
@@ -19,7 +22,6 @@ module.exports = grammar({
     ),
     
     tptp_input: $ => choice(
-      $.line_comment,
       $.include,
       $.annotated_formula,
     ),

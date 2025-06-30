@@ -14,10 +14,6 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "line_comment"
-        },
-        {
-          "type": "SYMBOL",
           "name": "include"
         },
         {
@@ -5272,6 +5268,10 @@
     }
   },
   "extras": [
+    {
+      "type": "SYMBOL",
+      "name": "line_comment"
+    },
     {
       "type": "PATTERN",
       "value": "\\s"
